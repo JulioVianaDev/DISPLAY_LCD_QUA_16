@@ -10,12 +10,6 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  lcd.setBacklight(HIGH);
-  lcd.setCursor(0,0);
-  lcd.print("EUREKA!!");
-  lcd.setCursor(0,1);
-  lcd.print("Ass Tomate");
-  delay(1000);
-  lcd.setBacklight(LOW);
-  delay(1000);
+  Nome();
+  Piscar();
 }
